@@ -20,7 +20,6 @@ public class DataGenerator {
     private static final Faker faker = new Faker(new Locale("en"));
 
     private DataGenerator() {
-
     }
 
     private static void sendRequest(RegistrationDto user) {
